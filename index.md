@@ -84,4 +84,4 @@ We will update this policy if the extension's data practices change and revise
 the date above.
 
 For questions about the extension or this policy, contact LinkLab at:
-[sulinklab@gmail.com](mailto:sulinklab@gmail.com).
+[gospark@syr.edu](mailto:gospark@syr.edu).

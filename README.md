@@ -19,4 +19,4 @@ the URL in the Chrome Web Store.
 Review policy changes with the publisher before pushing to `main`.
 Once Pages is enabled, updates to that branch are published automatically.
 
-Support: [sulinklab@gmail.com](mailto:sulinklab@gmail.com).
+Support: [gospark@syr.edu](mailto:gospark@syr.edu).
