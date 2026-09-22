@@ -1,0 +1,1 @@
+# companion-chat-log-export-privacy
