@@ -1,6 +1,6 @@
-# Companion Chat Log Export Privacy Policy
+# CompanionLink Privacy Policy
 
-Public privacy-policy documents for LinkLab's Companion Chat Log Export.
+Public privacy-policy documents for LinkLab's CompanionLink.
 This repository does not contain extension source code, credentials, or chat logs.
 
 ## Policy

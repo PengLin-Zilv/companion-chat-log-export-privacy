@@ -3,13 +3,14 @@ layout: default
 title: Privacy Policy
 ---
 
-# Companion Chat Log Export Privacy Policy
+# CompanionLink Privacy Policy
 
-Last updated: September 21, 2026.
+Last updated: September 29, 2026.
 
-Companion Chat Log Export is a free Chrome extension provided by LinkLab at
-Syracuse University. It lets you download your own Replika chat history for a
-date range you select. It does not automatically send your chat log to LinkLab.
+CompanionLink is a free Chrome extension provided by LinkLab at Syracuse
+University. It lets you download your own AI companion chat history for a date
+range you select. This version supports Replika. It does not automatically send
+your chat log to LinkLab.
 
 ## Information The Extension Handles
 
