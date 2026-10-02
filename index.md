@@ -5,84 +5,56 @@ title: Privacy Policy
 
 # CompanionLink Privacy Policy
 
-Last updated: September 29, 2026.
+Last updated: October 1, 2026.
 
-CompanionLink is a free Chrome extension provided by LinkLab at Syracuse
-University. It lets you download your own AI companion chat history for a date
-range you select. This version supports Replika. It does not automatically send
-your chat log to LinkLab.
+CompanionLink is a Chrome extension that exports your own AI companion chat
+history, for dates you choose, to a CSV file on your computer. This version
+supports Replika. CompanionLink connects only to Replika and does not send your
+data to its developers or to anyone else.
 
-## Information The Extension Handles
+## Data the extension handles
 
-To provide the export, the extension handles:
+- **Chat messages** and their details: timestamps, sender, reactions and message IDs.
+- **Your Replika login session**: the authentication token and account and device
+  identifiers your browser already uses for Replika. CompanionLink never asks for
+  your password.
+- **What you enter**: your participant ID and dates, and your computer's time zone.
 
-- The participant ID you enter, the dates you select and your computer's time zone.
-- Chat messages and their metadata, including timestamps, sender, reactions and
-  message IDs.
-- Replika session authentication information, including authentication tokens and
-  account/device identifiers needed to request history using your existing login.
+## How it is used
 
-The extension does not ask you to enter your Replika password.
+- When a Replika page loads, the extension reads that page's login-session
+  information from the page's storage and from the session message the page sends
+  to Replika. This happens before you open the extension.
+- When you click Export, the extension uses that session to request your chat
+  history directly from Replika over an encrypted connection.
+- Replika returns your history in batches. The extension keeps only messages
+  within your selected dates and creates the CSV on your computer. Your
+  participant ID is used only as the file name.
 
-## When And How Information Is Used
+## Sharing and Limited Use
 
-On matching Replika pages, the extension reads page storage and observes outgoing
-WebSocket initialization messages to locate login-session information. This can
-happen when a page loads, before you open the export popup or click Export.
-The captured initialization message passes through the page's messaging channel
-to the extension's content script.
+The extension's only connection is to Replika, to request your own history. It
+does not upload, sell or share your data, and it has no advertising or analytics.
+Its use of your data complies with the Chrome Web Store User Data Policy, including
+the Limited Use requirements.
 
-Chat-history retrieval starts when you submit the export form. Authenticated
-requests go directly to Replika over an encrypted WebSocket connection. Returned
-history batches may include messages outside your selected dates; filtering and
-CSV creation happen locally, and only matching messages are included in the file.
+Sharing the downloaded file with anyone, including researchers, is your choice and
+happens outside the extension.
 
-Your participant ID is used to name the downloaded CSV. It is not a request to
-create a Replika account or send the file to a researcher.
+## Storage
 
-## Sharing And Limited Use
+- Session information and messages are held only in browser memory; nothing is
+  saved to extension storage. The session can stay in memory until the Replika page
+  is closed or reloaded. Finishing an export does not clear it.
+- The CSV stays on your computer until you delete it. It is not encrypted and
+  contains your conversation text.
 
-We use the information handled by this extension only to provide its chat-export
-function, consistent with the Chrome Web Store User Data Policy, including its
-Limited Use requirements.
+## Your choices
 
-The extension has no advertising or tracking analytics. It does not sell data,
-use data for advertising, or upload your chat history or authentication information
-to LinkLab or a third-party collection service. Replika receives the authenticated
-requests necessary to provide your history.
+You decide when to export and for which dates. Disable or uninstall the extension
+to stop it. Uninstalling does not delete files you have already downloaded.
 
-If you participate in a study, submitting the downloaded file to researchers is a
-separate action. The study's consent and data-handling instructions govern that
-submission and the researchers' subsequent use and retention of the file.
+## Changes and contact
 
-## Storage And Retention
-
-The extension processes session information and export data in browser memory.
-It does not write authentication information to persistent extension storage.
-The cached session can remain for the lifetime of the Replika page's content-script
-context, until replaced or that context is destroyed. Completing an export or
-closing the popup does not clear the still-open page's session cache.
-
-The downloaded CSV remains on your computer until you delete it. It is a readable,
-unencrypted file and may contain personal or sensitive information from your
-conversations. A participant-ID filename does not anonymize the message contents.
-The exporter does not add session authentication fields to the CSV, but it does
-not redact personal information you have included in chat text.
-
-Replika's own account information, storage and retention are controlled by
-Replika, not this extension.
-
-## Your Choices
-
-You choose the date range and when to request an export. You can disable or
-uninstall the extension to stop future extension activity. Existing downloaded
-files are not removed when you uninstall; delete them separately when appropriate.
-You choose whether and how to share a downloaded file.
-
-## Changes And Contact
-
-We will update this policy if the extension's data practices change and revise
-the date above.
-
-For questions about the extension or this policy, contact LinkLab at:
+This policy will be updated if these practices change. Questions:
 [gospark@syr.edu](mailto:gospark@syr.edu).

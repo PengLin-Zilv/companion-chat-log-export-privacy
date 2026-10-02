@@ -1,6 +1,6 @@
 # CompanionLink Privacy Policy
 
-Public privacy-policy documents for LinkLab's CompanionLink.
+Public privacy policy for the CompanionLink Chrome extension.
 This repository does not contain extension source code, credentials, or chat logs.
 
 ## Policy
